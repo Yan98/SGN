@@ -1,6 +1,6 @@
 # Spatial Transcriptomics Analysis of Zero-shot Gene Expression Prediction
 
-[This repository](https://github.com/noxsine/LDP) contains the PyTorch code for our paper "Spatial Transcriptomics Analysis of Zero-shot Gene Expression Prediction".
+This repository contains the PyTorch code for our paper "Spatial Transcriptomics Analysis of Zero-shot Gene Expression Prediction".
 
 > [paper]() | [arxiv](https://arxiv.org/pdf/2401.14772)
 
