@@ -17,7 +17,7 @@ Spatial transcriptomics (ST) captures gene expression fine-grained distinct regi
 ## Framework
 
 <div align=center>
-<img src="asset/method.png"/>
+<img src="asset/model.png"/>
 </div>
 
 ## Requirements
