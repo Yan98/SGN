@@ -11,13 +11,13 @@
 Spatial transcriptomics (ST) captures gene expression fine-grained distinct regions (i.e., windows) of a tissue slide. Traditional supervised learning frameworks applied to model ST are constrained to predicting expression of gene types seen during training from slide image windows, failing to generalize to unseen gene types. To overcome this limitation, we propose a semantic guided network, a pioneering zero- shot gene expression prediction framework. Considering a gene type can be described by functionality and phenotype, we dynamically embed a gene type to a vector per its functionality and phenotype, and employ this vector to project slide image windows to gene expression in feature space, unleashing zero-shot expression prediction for unseen gene types. The gene type functionality and phenotype are queried with a carefully designed prompt from a pre-trained large language model. On standard benchmark datasets, we demonstrate competitive zero-shot performance compared to past state-of-the-art supervised learning approaches.
 
 <div align=center>
-<img src="asset/intro.png", width=200/>
+<img src="asset/intro.png", width=500/>
 </div>
 
 ## Framework
 
 <div align=center>
-<img src="asset/model.png", width=200/>
+<img src="asset/model.png", width=500/>
 </div>
 
 ## Requirements
