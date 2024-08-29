@@ -59,7 +59,6 @@ EVA-CLIP is built using the awesome [timm](https://github.com/huggingface/pytorc
 ## Citation
 
 ```
-
 @article{yang2024spatialtranscriptomicsanalysiszeroshot,
       title={Spatial Transcriptomics Analysis of Zero-shot Gene Expression Prediction}, 
       author={Yan Yang and Md Zakir Hossain and Xuesong Li and Shafin Rahman and Eric Stone},
