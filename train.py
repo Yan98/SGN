@@ -168,7 +168,7 @@ class TrainerModel(pl.LightningModule):
         
         pred_count = self.model(data.x_dict,data.edge_index_dict, emb, size)
         loss   = self.criterion(pred_count,data["window"]["y"][:,mask])
-        corrloss = self.correlationMetric(pred_count,data["window"]["y"])
+        corrloss = self.correlationMetric(pred_count,data["window"]["y"][:,mask])
         
         optimizer.zero_grad()
         self.manual_backward(loss + corrloss * 0.5)
